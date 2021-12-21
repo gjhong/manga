@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(47, 59, 59);
+  }
+  h1 {
+    color: rgb(92, 92, 134);
+  }
+  p {
+    color: red;
+  }* {
+      font-family:Verdana, Geneva, sans-serif;
+      font: size 15px;
+  }
+   
+  ul {
+      margin: 5;
+      padding:0;
+  }
+   
+  li {
+      list-style: none; 
+      margin: 9px;
+      display: inline;
+  }
+  li a {
+      padding: 15px 100px; 
+      margin:0;
+      border: 0px solid #f00; 
+      background: rgb(123, 59, 143);
+      text-decoration: none;
+      color:#FFF;
+      /* cantos arredondados */
+      -webkit-border-radius:5px;
+      -moz-border-radius:5px;
+      border-radius:5px;
+  }
+  li a:hover {
+      background: #CCC;
+      color: #000; 
+      border-color: #000;
+  }
